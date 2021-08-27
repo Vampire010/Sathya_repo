@@ -53,7 +53,12 @@ public class Sign_Up
 	        
 	        
 	        //cssSelector
-	        driver.findElement(By.cssSelector("#customerForm > table > tbody > tr:nth-child(13) > td:nth-child(2) > input")).click();
+	      //  driver.findElement(By.cssSelector("#customerForm > table > tbody > tr:nth-child(13) > td:nth-child(2) > input")).click();
+	        
+		    driver.findElement(By.cssSelector("#customerForm > table > tbody > tr:nth-child(13) > td:nth-child(2) > input")).submit();
+
+	        
+	        
 		
 		Thread.sleep(2000);
 		driver.quit();
