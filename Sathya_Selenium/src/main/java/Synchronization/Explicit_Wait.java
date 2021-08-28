@@ -11,7 +11,7 @@ public class Explicit_Wait {
 	public static void main(String[] args) 
 	{
 		
-System.setProperty("webdriver.chromedriver.driver", "/Users/girishg/eclipse-workspace/Sathya_Selenium/Drivers/chromedriver");
+		System.setProperty("webdriver.chromedriver.driver", "/Users/girishg/eclipse-workspace/Sathya_Selenium/Drivers/chromedriver");
 		
 		WebDriver driver = new ChromeDriver(); 
         
