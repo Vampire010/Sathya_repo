@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function magicBox() {
+                let userInput = prompt("Enter your choice");
+                switch(userInput) {
+                    case 'A':
+                        document.getElementById("result").innerHTML = "You won 1 ltr Milk";
+                        break;
+                    case 'B':
+                        document.getElementById("result").innerHTML = "You won a packet of chips";
+                        break;
+                    case 'C':
+                        document.getElementById("result").innerHTML = "You won a car";
+                        break;
+                    default:
+                        document.getElementById("result").innerHTML = "Invalid option";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>Enter A, B or C to select a magic box:</p>
+        <button onclick="magicBox()">Click on me!</button>
+        <p id="result"></p>
+    </body>
+</html>
